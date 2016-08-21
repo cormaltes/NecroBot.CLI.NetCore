@@ -1,0 +1,10 @@
+Initializing NecroBot logger at time 8/21/2016 4:54:37 PM...
+[16:54:42] You need to configure "GoogleAPIKey", get API Key in link: https://developers.google.com/maps/documentation/directions/get-api-key
+[16:54:43] NecroBot v1.0.0 est à jour.
+[16:54:43] Connexion via Google
+[16:54:43] Vous devez remplir les champs GoogleUsername et GooglePassword dans auth.json!
+Initializing NecroBot logger at time 8/21/2016 4:55:06 PM...
+[16:55:10] You need to configure "GoogleAPIKey", get API Key in link: https://developers.google.com/maps/documentation/directions/get-api-key
+[16:55:11] NecroBot v1.0.0 est à jour.
+[16:55:11] Connexion via Google
+[16:55:11] Vous devez remplir les champs GoogleUsername et GooglePassword dans auth.json!
