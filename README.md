@@ -3,6 +3,8 @@
 I migrate api Rocket and other NuGet packages to dnxcore that they be used on linux / mac / windows ( xboxone ... ) . 
 
 And I also NecroBot migrated to a POC to test the API. That works very well ;-).
+
+for windows use the best console emulator http://cmder.net/  for replace cmd.exe  (include git)
 ________________________________________________
 Before for install .net core sdk in your os >>
 .NET - Powerful Open Source Development
