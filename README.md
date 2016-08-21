@@ -7,7 +7,7 @@ ________________________________________________
 Before for install .net core sdk in your os >>
 .NET - Powerful Open Source Development
 
-git clone GitHub - cormaltes/NecroBot.CLI.NetCore
+git clone https://github.com/cormaltes/NecroBot.CLI.NetCore.git
 cd NecroBot.CLI.NetCore
 dotnet restore
 cd PoGo.NecroBot.CLI.NetCore
