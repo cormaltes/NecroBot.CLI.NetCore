@@ -16,8 +16,8 @@ cd PoGo.NecroBot.CLI.NetCore
 dotnet run
 
 
-Edit config file auth.json into PoGo.NecroBot.CLI.NetCore/Congig
-
+Edit config file auth.json into PoGo.NecroBot.CLI.NetCore/config
+Make sure to add qoutes.
 
 run again with only
 
