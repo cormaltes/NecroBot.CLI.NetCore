@@ -53,7 +53,7 @@ namespace PoGo.NecroBot.CLI
             //    return;
 
             var profilePath = Path.Combine(Directory.GetCurrentDirectory(), subPath);
-            var profileConfigPath = Path.Combine(profilePath, "config");
+            var profileConfigPath = Path.Combine(profilePath, "Config");
             var configFile = Path.Combine(profileConfigPath, "config.json");
 
             GlobalSettings settings;
@@ -71,7 +71,7 @@ namespace PoGo.NecroBot.CLI
                 settings = new GlobalSettings();
                 settings.ProfilePath = profilePath;
                 settings.ProfileConfigPath = profileConfigPath;
-                settings.GeneralConfigPath = Path.Combine(Directory.GetCurrentDirectory(), "config");
+                settings.GeneralConfigPath = Path.Combine(Directory.GetCurrentDirectory(), "Config");
                 settings.ConsoleSettings.TranslationLanguageCode = strCulture;
 
                 boolNeedsSetup = true;
