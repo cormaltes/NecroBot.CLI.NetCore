@@ -7,7 +7,7 @@ Migrated RocketAPI and other packages to .NET Core so that they can be used on l
 
 ## Setup
 ```
-git clone https://github.com/cormaltes/NecroBot.CLI.NetCore.git
+git clone https://github.com/woutervisser/NecroBot.CLI.NetCore.git --recursive
 cd NecroBot.CLI.NetCore
 dotnet restore
 # now is a good time to edit the config files
