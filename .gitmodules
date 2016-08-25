@@ -1,0 +1,3 @@
+[submodule "PoGo.NecroBot.Logic.NetCore"]
+	path = PoGo.NecroBot.Logic.NetCore
+	url = https://github.com/woutervisser/NecroBot.Logic.NetCore.git

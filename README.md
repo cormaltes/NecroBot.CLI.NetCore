@@ -1,33 +1,39 @@
 # NecroBot.CLI.NetCore
 
-I migrate api Rocket and other NuGet packages to dnxcore that they be used on linux / mac / windows ( xboxone ... ) . 
+Migrated RocketAPI and other packages to .NET Core so that they can be used on linux/mac/windows etc.
 
-And I also NecroBot migrated to a POC to test the API. That works very well ;-).
+## Requirements:
+- [.NET CORE](https://www.microsoft.com/net/core)
 
-for windows use the best console emulator http://cmder.net/  for replace cmd.exe  (include git)
-________________________________________________
-Before for install .net core sdk in your os >>
-.NET - Powerful Open Source Development
-
-git clone https://github.com/cormaltes/NecroBot.CLI.NetCore.git
+## Setup
+```
+git clone https://github.com/woutervisser/NecroBot.CLI.NetCore.git --recursive
 cd NecroBot.CLI.NetCore
 dotnet restore
+# now is a good time to edit the config files
+# after the config files are setup correctly you can run the bot
 cd PoGo.NecroBot.CLI.NetCore
 dotnet run
+```
 
+## Config
+Edit auth.json and config.json in PoGo.NecroBot.CLI.NetCore/config. Remember to add quotes!
 
-Edit config file auth.json into PoGo.NecroBot.CLI.NetCore/config
-Make sure to add qoutes.
+## Run
+```
+cd NecroBot.CLI.NetCore/PoGo.NecroBot.CLI.NetCore
+dotnet run
+```
 
-run again with only
+## Update
+It's recommended to check for package updates after you updated your repository (by using git pull)
+```
+cd NecroBot.CLI.NetCore
+dotnet restore
+```
 
-dotnet run (in dir /NecroBot.CLI.NetCore/PoGo.NecroBot.CLI.NetCore)
-________________________________________________________________
-
-If you update by new version of git, you must execute again : dotnet restore ( for update packages if there are changed).
-
-
-The principal source code are from :
-- Insensitivity : PogoProtos
-- ForexRev : Pokemon-Go-Rocket-API
-- Necrobot : NECRBOTIO / NoxxDev
+## Credits
+- Cormaltes for porting this to .NET Core
+- Insensitivity for PogoProtos
+- ForexRev for Pokemon-Go-Rocket-API
+- NECRBOTIO and NoxxDev for NecroBot
