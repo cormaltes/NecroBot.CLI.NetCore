@@ -33,6 +33,7 @@ dotnet restore
 ```
 
 ## Credits
+- Cormaltes for porting this to .NET Core
 - Insensitivity for PogoProtos
 - ForexRev for Pokemon-Go-Rocket-API
 - NECRBOTIO and NoxxDev for NecroBot
